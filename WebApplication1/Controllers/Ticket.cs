@@ -11,6 +11,10 @@ namespace WebApplication1.Controllers
             return Ok("Hello World!");
         }
 
+        public IActionResult Get(int id)
+        {
+            return Ok($"Hello World! {id}");
+        }
 
     }
 }
